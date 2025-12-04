@@ -64,4 +64,18 @@ export const targetElements = [
       origin: "bottom",
     },
   },
+  {
+    element: ".news-wrapper",
+    animation: {
+      delay: 600,
+      origin: "bottom",
+    },
+  },
+  {
+    element: ".news-item__content",
+    animation: {
+      delay: 800,
+      origin: window.innerWidth > 768 ? "right" : "bottom",
+    },
+  },
 ];

@@ -1,0 +1,31 @@
+/* Basic styles for Latest News section */
+#news {
+  padding: 3rem 0;
+  background: #f9fbff;
+}
+
+.news-wrapper .news-item__image {
+  margin-bottom: 1rem;
+}
+
+.news-wrapper .news-item__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.news-wrapper .news-item__content .news-item__title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.news-wrapper .news-item__content p {
+  color: #333;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .news-design-area .news-item__image {
+    padding-right: 1rem;
+  }
+}
